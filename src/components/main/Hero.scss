@@ -1,0 +1,60 @@
+.hero-all {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 114px;
+  .hero-left {
+    h1 {
+      font-family: Poppins;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 60px;
+      text-align: left;
+      color: #22343d;
+    }
+    p {
+      font-family: Poppins;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 28px;
+      text-align: left;
+      color: #22343d;
+      padding-top: 18px;
+      width: 466px;
+    }
+    .btns {
+      display: flex;
+      align-items: center;
+      padding-top: 45px;
+      .get-start {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: left;
+        border: none;
+        padding: 15px 41px;
+        border-radius: 4px;
+        background-color: #02897a;
+        color: #fff;
+        cursor: pointer;
+      }
+      .play {
+        background: none;
+        border: none;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: left;
+        color: #02897a;
+        border-bottom: 1px solid #02897a;
+        margin-left: 30px;
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+.Contents {
+  padding-top: 39px;
+  h2 {
+    font-family: Poppins;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 51px;
+    text-align: center;
+    color: #22343d;
+  }
+  p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    padding-top: 8px;
+    color: #22343d;
+  }
+  .cards {
+    padding-top: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .card {
+      width: 349px;
+      border: 1px solid #dedede;
+      border-radius: 8px;
+      p {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: left;
+        color: #22343d;
+        padding-left: 24px;
+        padding-top: 24px;
+        padding-bottom: 12px;
+      }
+      h3 {
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 40px;
+        text-align: left;
+        color: #22343d;
+        padding-left: 24px;
+        padding-bottom: 40px;
+        padding-right: 30px;
+      }
+    }
+  }
+}

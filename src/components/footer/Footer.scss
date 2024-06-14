@@ -1,0 +1,39 @@
+.Footer {
+  padding-bottom: 50px;
+  .footer-all {
+    display: flex;
+    justify-content: space-between;
+    background-color: #02897a;
+    border-radius: 32px;
+    .footer-left {
+      h2 {
+        font-family: Poppins;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 48.45px;
+        text-align: left;
+        color: #ffffff;
+        width: 510px;
+        padding-left: 51px;
+        padding-top: 49px;
+      }
+      button {
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: left;
+        color: #02897a;
+        background-color: #fff;
+        border-radius: 8px;
+        border: none;
+        padding: 13px 35px;
+        margin-left: 51px;
+        margin-top: 70px;
+        margin-bottom: 56px;
+      }
+    }
+    .footer-right {
+    }
+  }
+}
